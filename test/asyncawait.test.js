@@ -7,7 +7,7 @@ import("chai").then((chai) => {
   describe("Asynchronous Test with Async/Await", function () {
     it("should fetch data correctly", async function () {
       const data = await fetchData();
-      expect(data).to.equal("data");
+      expect(data).to.equal("data"); 
     });
   });
 });
