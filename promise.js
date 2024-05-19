@@ -1,5 +1,5 @@
-// promise.js
-function fetchData() {
+// asyncawait.js
+async function fetchData() {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve('data');
