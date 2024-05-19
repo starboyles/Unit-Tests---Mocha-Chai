@@ -28,15 +28,15 @@ import("chai").then((chai) => {
     });
 
     it("should add a user", function () {
-      userManager.addUser({ id: 1, name: "John Doe" });
+      userManager.addUser({ id: 1, name: "Carie Levin" });
       const user = userManager.getUser(1);
-      expect(user).to.deep.equal({ id: 1, name: "John Doe" });
+      expect(user).to.deep.equal({ id: 1, name: "Carie Levin" });
     });
 
     it("should get a user by id", function () {
-      userManager.addUser({ id: 2, name: "Jane Doe" });
+      userManager.addUser({ id: 2, name: "Janelle Coop" });
       const user = userManager.getUser(2);
-      expect(user).to.deep.equal({ id: 2, name: "Jane Doe" });
+      expect(user).to.deep.equal({ id: 2, name: "Janelle Coop" });
     });
   });
 });
